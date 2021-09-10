@@ -1,10 +1,54 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4vw;
+  margin: 30px 0;
+}
+
+input {
+  display: block;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 20px;
+}
+
+div.container-btns {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    display: block;
+    width: 200px;
+    font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.affichage {
+    list-style: none;
+    margin: 0 auto;
+    width: 75%; 
+    padding: 15px;
+    font-size: 40px;
+}
+
+.info-txt {
+    font-size: 20px;
+    width: 75%;
+    margin: 10px auto;
+    padding: 20px;
 }
